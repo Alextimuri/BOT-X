@@ -2,14 +2,14 @@ const fs = require('fs-extra');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname + '/config.env' });
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2347045035241';  
+global.owner = process.env.OWNER_NUMBER || '263719823098';  
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Xcelsama:Xcel@xcelsama.qpklf.mongodb.net/?retryWrites=true&w=majority&appName=Xcelsama";
 global.port = process.env.PORT || 5000;
 global.email = 'ms.excel.amadi@gmail.com';
 global.github = 'https://github.com/Excelsama/BOT-X';
 global.location = 'Rivers Nigeria';
 global.gurl = 'https://instagram.com/xcel_sama/'; 
-global.sudo = process.env.SUDO || "2347045035241";
+global.sudo = process.env.SUDO || "263719823098";
 global.devs = '2347045035241';
 global.website = 'https://github.com/Excelsama/BOT-X';
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4aace2d012c11509.jpg';
